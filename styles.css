@@ -6,17 +6,22 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    background-image: url(images/earth-view-from-space-4k-23.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #weather-container {
     background: rgba(255, 255, 255, 0.3);
-    max-width: 400px;
+    width: 400px;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
     text-align: center;
+    height: 100vh;
 }
 
 h2, label, p {
@@ -30,12 +35,12 @@ input {
     box-sizing: border-box;
     border-radius: 10px;
     border: 1px solid white;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 button {
     background: #debff4;
-    color: white;
+    color: rgb(10, 9, 9);
     padding: 10px;
     border: none;
     border-radius: 10px;
@@ -56,6 +61,7 @@ button:hover {
 
 #weather-info {
     font-size: 20px;
+    text-transform: capitalize;
 }
 
 #weather-icon {
@@ -67,6 +73,8 @@ button:hover {
 }
 
 #hourly-forecast {
+    /* width: 500px; */
+   
     margin-top: 50px;
     overflow-x: auto;
     white-space: nowrap;
@@ -81,7 +89,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     margin-right: 10px;
-    color: white;
+    color: rgb(6, 5, 5);
 }
 
 .hourly-item img {
@@ -91,6 +99,6 @@ button:hover {
 }
 
 #hourly-heading {
-    color: #fff;
+    color: #8d0af9;
     margin-top: 10px;
 }
